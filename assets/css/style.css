@@ -53,8 +53,11 @@ header#header {
 #header.header-top .navbar_list {
     margin: 0;
 }
+#header.header-top .navbar_list ul{
+    margin: 0;
+}
 #header.header-top .navbar_list ul li{
-    padding: 10px 16px;
+    padding: 6px 16px;
 }
 #header.header-top .navbar_list ul li a{
     font-size: 16px;
@@ -181,11 +184,43 @@ section.section-show {
     opacity: 1;
     padding-bottom: 45px;
 }
+.section-title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.section-title h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #FFB30D;
+    margin: 4px 10px;
+}
+.hightlight-blue{
+    color: #085454;
+}
+.hr {
+    height: 2px;
+    background: #FFB30D;
+    max-width: 93%;
+    margin: 20px auto;
+}
 
-
-
-
-
+/* about css */
+.about {
+    background: #7a7a7a26;
+    padding: 20px;
+}
+.about_me ul {
+    list-style: none;
+    padding: 0;
+}
+.about_me ul li {
+    margin: 20px 0;
+}
+.about_me ul li span {
+    color: #085454;
+}
 @media (max-width: 992px){
     header#header h1 {
         font-size: 36px;
