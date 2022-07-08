@@ -393,13 +393,13 @@ section.section-show {
     line-height: 1;
     text-transform: uppercase;
     color: #fff;
-    background: rgba(255, 255, 255, 0.1);
+    background: #08545426;
     margin: 0 3px 10px 3px;
     transition: all 0.3s ease-in-out;
     border-radius: 4px;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-    background: #18d26e;
+    background: #FFB30D;
 }
 .portfolio .portfolio-item {
     margin-bottom: 30px;
@@ -413,7 +413,7 @@ section.section-show {
 }
 .portfolio .portfolio-wrap::before {
     content: "";
-    background: rgba(0, 0, 0, 0.6);
+    background: #ffb30dc4;
     position: absolute;
     left: 30px;
     right: 30px;
@@ -450,18 +450,18 @@ section.section-show {
     position: absolute;
     top: 35px;
     left: 35px;
-    border-top: 3px solid #fff;
-    border-left: 3px solid #fff;
+    border-top: 3px solid #000;
+    border-left: 3px solid #000;
     transition: all 0.5s ease 0s;
     z-index: 9994;
 }
 .portfolio .portfolio-wrap .portfolio-info h4 {
     font-size: 20px;
-    color: #fff;
+    color: #085454;
     font-weight: 600;
 }
 .portfolio .portfolio-wrap .portfolio-info p {
-    color: #ffffff;
+    color: #085454;
     font-size: 14px;
     text-transform: uppercase;
     padding: 0;
@@ -473,7 +473,7 @@ section.section-show {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-    color: #fff;
+    color: #000;
     margin: 0 2px;
     font-size: 28px;
     display: inline-block;
@@ -501,8 +501,8 @@ section.section-show {
     position: absolute;
     bottom: 35px;
     right: 35px;
-    border-bottom: 3px solid #fff;
-    border-right: 3px solid #fff;
+    border-bottom: 3px solid #000;
+    border-right: 3px solid #000;
     transition: all 0.5s ease 0s;
     z-index: 9994;
 }
